@@ -284,8 +284,6 @@ fatal error: camera_pins.h: No such file or directory
 
 The issue occurred because the sketch was missing required camera files. The AI Thinker camera pin definitions were directly embedded into the sketch itself, eliminating the dependency on the missing file.
 
-
-
 # Results
 
 After troubleshooting and configuring the hardware and software correctly, the ESP32-CAM successfully initialized and captured snapshots automatically every five seconds. The Serial Monitor continuously displayed successful snapshot capture logs, confirming that the monitoring system was functioning properly.
@@ -297,6 +295,19 @@ Snapshot 1 captured successfully
 Snapshot 2 captured successfully
 
 The project demonstrated how embedded IoT devices can support automated monitoring, event logging, and basic surveillance operations within a cybersecurity-focused environment.
+
+
+# Screenshots
+<img width="1871" height="947" alt="Screenshot 2026-05-20 030732" src="https://github.com/user-attachments/assets/341bc0b7-cf21-4b65-8180-5626b39c34b7" />
+
+
+<img width="1908" height="289" alt="Screenshot 2026-05-20 030125" src="https://github.com/user-attachments/assets/0016e7b0-767f-4b86-876b-d7e63f592d9b" />
+
+<img width="1600" height="1579" alt="WhatsApp Image 2026-05-20 at 2 59 33 AM" src="https://github.com/user-attachments/assets/b220fcaf-a500-488c-95fd-c278b07c8757" />
+
+
+
+
 
 
 # Conclusion
